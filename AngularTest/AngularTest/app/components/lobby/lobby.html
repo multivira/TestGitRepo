@@ -1,2 +1,13 @@
 ﻿
-<p>Lobby!</p>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            <h3>Chat</h3>
+        </div>
+    </div>
+    <div class="row" ng-repeat="chatMessage in lobby.chatMessages">
+        <div class="col-sm-3">
+            <strong>{{chatMessage.userName}}:</strong>&nbsp;{{chatMessage.message}}
+        </div>
+    </div>
+</div>

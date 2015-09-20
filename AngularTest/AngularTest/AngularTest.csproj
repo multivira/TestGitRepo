@@ -73,6 +73,7 @@
     <Content Include="app\components\settings\settings.html" />
     <Content Include="app\components\settings\SettingsController.js" />
     <Content Include="app\controllers\MainController.js" />
+    <Content Include="app\services\chatService.js" />
     <Content Include="dist\all.min.js" />
     <Content Include="gulpfile.js" />
     <Content Include="packages.config" />

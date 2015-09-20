@@ -1,4 +1,15 @@
 ﻿
-<h2>Main Menu</h2>
-<a ui-sref="lobby">Lobby</a>
-<a ui-sref="settings">Settings</a>
+
+<div class="container-fluid">
+    <ul class="nav nav-tabs">
+        <li ui-sref-active="active">
+            <a ui-sref="mainMenu.lobby">Lobby</a>
+        </li>
+        <li ui-sref-active="active">
+            <a ui-sref="mainMenu.settings">Settings</a>
+        </li>
+    </ul>
+</div>
+
+
+<ui-view>blaaaaa</ui-view>

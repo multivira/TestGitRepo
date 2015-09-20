@@ -6,7 +6,12 @@
         .module('appModule')
         .controller('LobbyController', lobbyController);
 
-    function lobbyController() {
+    lobbyController.$inject = ['chatService'];
+
+    function lobbyController(chatService) {
+        var vm = this;
+        vm.chatMessages = chatService.getMessages();
+
 
     }
 

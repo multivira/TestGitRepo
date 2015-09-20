@@ -1,0 +1,14 @@
+{
+  "name": "AngularTest",
+  "version": "0.0.1",
+  "description": "Testing angular",
+  "repository": { "url": "https://github.com/multivira/TestGitRepo/tree/master/AngularTest" },
+  "readme": "readme.md",
+  "license":  "MIT",
+  "devDependencies": {
+    "del": "^2.0.2",
+    "gulp": "^3.9.0",
+    "gulp-concat": "^2.6.0",
+    "gulp-uglify": "^1.4.1"
+  }
+}

@@ -1,0 +1,16 @@
+﻿<!DOCTYPE html>
+<html ng-app="app">
+<head>
+    <title>Angular test application</title>
+	<meta charset="utf-8" />
+</head>
+<body ng-controller="Main as vm">
+    <h1>Hello world!</h1>
+    <input type="text" ng-model="vm.food" placeholder="Enter food" />
+
+    <p>Sriracha sauce is great with {{vm.food}}!</p>
+
+    <script src="Scripts/angular.min.js"></script>
+    <script src="dist/all.min.js"></script>
+</body>
+</html>

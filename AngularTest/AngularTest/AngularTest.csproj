@@ -66,11 +66,20 @@
     <Reference Include="System.EnterpriseServices" />
   </ItemGroup>
   <ItemGroup>
+    <Content Include="app\components\lobby\lobby.html" />
+    <Content Include="app\components\lobby\LobbyController.js" />
+    <Content Include="app\components\main-menu\main-menu.html" />
+    <Content Include="app\components\main-menu\MainMenuController.js" />
+    <Content Include="app\components\settings\settings.html" />
+    <Content Include="app\components\settings\SettingsController.js" />
+    <Content Include="app\controllers\MainController.js" />
     <Content Include="dist\all.min.js" />
     <Content Include="gulpfile.js" />
     <Content Include="packages.config" />
     <Content Include="package.json" />
     <None Include="Properties\PublishProfiles\AngularTest2563.pubxml" />
+    <Content Include="Scripts\angular-ui-router.js" />
+    <Content Include="Scripts\angular-ui-router.min.js" />
     <Content Include="Scripts\angular.min.js.map" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -81,7 +90,6 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="app\app.module.js" />
-    <Content Include="app\main.js" />
     <Content Include="index.html" />
     <Content Include="Scripts\angular-mocks.js" />
     <Content Include="Scripts\angular.js" />

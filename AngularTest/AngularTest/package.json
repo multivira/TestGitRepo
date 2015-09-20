@@ -2,13 +2,17 @@
   "name": "AngularTest",
   "version": "0.0.1",
   "description": "Testing angular",
-  "repository": { "url": "https://github.com/multivira/TestGitRepo/tree/master/AngularTest" },
+  "repository": {
+    "url": "https://github.com/multivira/TestGitRepo/tree/master/AngularTest"
+  },
   "readme": "readme.md",
-  "license":  "MIT",
+  "license": "MIT",
   "devDependencies": {
+    "browserify": "^11.1.0",
     "del": "^2.0.2",
     "gulp": "^3.9.0",
     "gulp-concat": "^2.6.0",
-    "gulp-uglify": "^1.4.1"
+    "gulp-uglify": "^1.4.1",
+    "vinyl-source-stream": "^1.1.0"
   }
 }
